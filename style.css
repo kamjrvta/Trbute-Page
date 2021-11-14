@@ -1,0 +1,119 @@
+body {
+margin:0;   
+    /*background-color: #5a2a2a;*/
+    background-image: url(image/background.jpg);
+    text-align: center;
+    font-family: 'Monaco', sans-serif;
+   color: black;
+    font-size: 18px;
+}
+
+body{
+ 
+}
+section {
+    padding: 2em 2em 1.75em;
+    width: 45em;
+    margin: 0 auto 2em;
+    max-width: 100%;
+    /*background-color: #ffebcd;*/
+    background-image: url(image/other.jpg);
+
+}
+#horizontal-line {
+    border: solid black 1px;
+
+}
+ul {
+max-width: 550px;
+    margin:0 auto;
+    text-align: left;
+}
+li {
+    margin: 10px;
+
+}
+#image {
+    width: 80%;
+    height: 80%;
+    padding: 50px 50px 5px 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+justify-content: center;
+  max-width: 80%;
+  display: block;
+  height: auto;
+  width: auto;
+}
+#title {
+    text-align: center;
+    padding: 10px;
+   font-family: 'Century Gothic', sans-serif;;
+     color: #a52a2a;
+    text-decoration-line: none;
+    font-size: 60px;
+    
+}
+#img-caption {
+    font-size: 15px;
+    font-style: italic;
+}
+#img-source {
+  font-size: 12px;
+  color:  #a52a2a;
+  padding: 0px 0px 20px 0px;
+}
+#tribute-info {
+    padding: 
+    text-decoration: none;
+    color: #a52a2a;
+}
+.vertical-line {
+    border-left: 4px solid #4e186b;
+  height: 80px;
+  position: relative;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+.rc_content {
+  text-align: center; 
+  padding-left:14px; 
+  font-family: 'Monaco', sans-serif; 
+  margin-top: 100px;  
+  color:  black;
+}
+blockquote {
+  display: block;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: #5a2a2a;
+  padding: 1.5em 0 0.5em;
+  margin: 1.5em 0;
+  position: relative;
+}
+blockquote:before {
+  content: '\201C';
+  position: absolute;
+  top: 0em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 3rem;
+  height: 2rem;
+  font: 6em/1.08em 'PT Sans', sans-serif;
+  color: #a52a2a;
+  text-align: center;
+}
+blockquote:after {
+  content: "\2013 \2003" attr(cite);
+  display: block;
+  text-align: right;
+  font-size: 0.875em;
+  color: #a52a2a;
+}
+
+.main-header{
+    color: #a52a2a;
+}
